@@ -1,0 +1,17 @@
+name = "my-graphql-server"
+type = "webpack"
+account_id = "f4f6b8b976aad298ee2e7a3555edaea0"
+workers_dev = true
+route = ""
+zone_id = ""
+webpack_config = "webpack.config.js"
+
+[[kv-namespaces]]
+name = "post"
+binding = "post"
+id = "e3c282fd273742b1b40a5eb55a5e1e9d"
+
+[[kv-namespaces]]
+name = "user"
+binding = "user"
+id = "05794040caef48229d915aaeb4152772"
